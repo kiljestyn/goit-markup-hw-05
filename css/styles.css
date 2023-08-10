@@ -883,7 +883,7 @@ color: rgba(46, 47, 66, 0.4);
 .modal-checkbox {
     margin-bottom: 24px;
 }
-.textarea:focus {
+.modal-comment:focus {
     border-color: #4D5AE5;
 }
 textarea::placeholder {
@@ -925,7 +925,6 @@ height: 16px;
 margin-right: 8px;
 border-radius: 2px;
 border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
-display: flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
