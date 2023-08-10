@@ -859,7 +859,9 @@ margin-bottom: 4px;
 .modal-field {
     margin-bottom: 8px;
 }
-
+.modal-field-comment {
+    margin-bottom: 16px;
+}
 .modal-input-wrap {
     position: relative;
 }
