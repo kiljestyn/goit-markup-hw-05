@@ -432,7 +432,6 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
-position: absolute;
 
 }
 
@@ -458,9 +457,8 @@ position: absolute;
 }
 
 .subscribe-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
+    
 }
 .container-footer-form {
     
@@ -483,12 +481,11 @@ color: var(--white-cl);
 .footer-form {
     display: flex;
     gap: 24px;
-    
+    justify-content: space-between;
+    align-items: center;
 }
 .footer-input-label {
-    margin-right: 24px;
-    position: relative;
-    top: 16px;
+    
 }
 .footer-input::placeholder {
     color: var(--white-cl);
