@@ -417,13 +417,23 @@ width: 264px;
 max-width: 264px;
 }
 
-.social-title-footer, .subscribe-title-footer {
+.social-title-footer {
 color: var(--white-cl);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
+}
+.subscribe-title-footer {
+    color: var(--white-cl);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+position: absolute;
+
 }
 
 .footer-social-list {
@@ -468,14 +478,17 @@ letter-spacing: 0.04em;
 padding-left: 16px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 color: var(--white-cl);
+
 }
 .footer-form {
     display: flex;
     gap: 24px;
+    
 }
 .footer-input-label {
     margin-right: 24px;
-    
+    position: relative;
+    top: 16px;
 }
 .footer-input::placeholder {
     color: var(--white-cl);
@@ -908,7 +921,6 @@ color: var(--lightslate);
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-display: flex;
 align-items: center;
 margin-bottom: 24px;
 }
